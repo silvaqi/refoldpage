@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #b0afbb;
+}
+
+.header-main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -2em;
+	font-family: "Poppins", sans-serif;
+}
+
+.title img{
+	width: 130px;
+	height: 130px;
+	cursor: pointer;
+}
+
+.itens-nav{
+	display: flex;
+	gap: 6em;
+	list-style: none;
+}
+
+.itens-nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.itens-nav a:hover{
+	text-decoration: underline;
+	color: #bbbcbd;
+	transition: 0.55s;
+}
+
+.unique-hover{
+	background: #6145cb;
+	padding: 5px;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+.container-two{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 1em;
+}
+
+.cardusa{
+	background: #1c1a25;
+	width: 260px;
+	height: 300px;
+	border-radius: 7px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.content-usa{
+	color: white;
+	font-size: 12px;
+}
+
+.content-usa img{
+	width: 150px;
+	height: 150px;
+	margin-left: 55px;
+}
+
+.cardspanish{
+	background: #1c1a25;
+	width: 260px;
+	height: 300px;
+	border-radius: 7px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.content-spanish{
+	color: white;
+	font-size: 12px;
+}
+
+.content-spanish img{
+	width: 150px;
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+.cardfrance{
+	background: #1c1a25;
+	width: 260px;
+	height: 300px;
+	border-radius: 7px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.content-france{
+	color: white;
+	font-size: 12px;
+}
+
+.content-france img{
+	width: 150px;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+
+.informations{
+	font-family: "Puppins", sans-serif;
+	background: #bbbcbd;
+	padding: 15px;
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer{
+	text-align: center;
+}
+
+.informations a{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+}
+/* 
+Colors:
+
+#6145cb Purple Heart 
+#bbbcbd Silver sand 
+#847b79 Hurricane 
+#0243a1 Cobalt
+
+*/
